@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    /* chọn font */
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* các chữ đầu tiên trong một từ luôn là từ in hoa  */
+    transition: all .2s ease-out;
+    /* all : xác định hiệu ứng cho toàn web  */
+    /* .2s: quá trình chuyển đổi hiệu ứng mất 2s  */
+    /* ease-out: hiệu ứng chuyển đổi sẽ kết thúc chậm  */
+}
+html {
+    display:inline-block;
+    font-size: 70%;  
+    /* Chỉnh font size, tránh nhỏ khó qsat, tránh to để khi zoom to nó to lên khó nhìn */
+    scroll-behavior: smooth;
+    /* chỉnh hiệu ứng để khi scroll nó trở nên mượt hơn  */
+}
+h1{ color: #106561;
+    padding: 2.5rem 1rem 0 0;
+    text-align: center;
+    font-size: 4rem;
+}
+body{  
+    background-image: url(https://www.wect.com/resizer/1Z7O99hgyE_atDZ5NPev-ky5Z1I=/1400x0/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/EFHZDC5BVBCENGK4KGAIYT5U6Y.jpg);
+    justify-content: center;   
+    text-align: center;  
+  }
+.device .box {
+    flex: 1 1 30rem;/* tạo một cái giới hạn để nó có thể tự trôi xuống khi tràn giới hạn */
+    border-radius: .5rem;
+    padding: 1.5rem; /* Khoảng trống nằm giữa nội dung và margin, cách nội dung ở trên và nội dung dưới là 1.5rem */
+    text-align: center; /* Dạng căn giữa trong cái box này */
+}
+.device .box .share button {/* Trỏ tới button, tạo độ rộng và màu của button*/
+    height: 5.5rem; 
+    width: 10rem;
+    line-height: 5rem;
+    font-size: 3.5rem;
+    background: rgb(3, 235, 34);
+    border-radius: .5rem;
+    margin: 2rem;
+    color: rgb(239, 243, 245);
+}
+.device .box img{ /* trỏ tới img */
+    height: 50rem; /* Setup chiều dài chiều rộng */
+    width: 50rem;
+    margin: .5rem 0; /* Khoảng cách từ đường viền trở ra, đườnng viền bao quanh hình và cách với trên và dưới */
+    object-fit: cover; /* Nó ôm hình lại để đẹp hơn*/
+}
+.device .box .share button:hover{ /* Nhấn giữ, lúc bấm vô sẽ thay đôi màu */
+    background: #066812;
+    cursor: pointer; /* Tạo con trỏ lúc bấm vào */
+}
+
+
+@media (max-width: 1000px) {
+
+    html{
+        font-size: 55%;
+    }
+    
+    body{
+        padding:1.5rem;
+    }
+    
+    header{
+        padding:2rem;
+    }
+    
+    section{
+        padding:2rem;
+    }
+}

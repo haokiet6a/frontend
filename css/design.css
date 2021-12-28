@@ -20,13 +20,14 @@ html {
     scroll-behavior: smooth;
     /* chỉnh hiệu ứng để khi scroll nó trở nên mượt hơn  */
 }
-h1{ color: #106561;
+h1{ color: #06faee;
     padding: 2.5rem 1rem 0 0;
     text-align: center;
     font-size: 4rem;
 }
 body{  
-    background-image: url(https://www.wect.com/resizer/1Z7O99hgyE_atDZ5NPev-ky5Z1I=/1400x0/arc-anglerfish-arc2-prod-raycom.s3.amazonaws.com/public/EFHZDC5BVBCENGK4KGAIYT5U6Y.jpg);
+    background-image: url(https://images.alphacoders.com/869/thumb-1920-869857.jpg);
+    background-repeat: no-repeat;
     justify-content: center;   
     text-align: center;  
   }
